@@ -1,0 +1,22 @@
+{
+  "original": "base.jpg",
+  "result": "result.jpg",
+  "size": [
+    1536,
+    1024
+  ],
+  "result_resized_to_match": false,
+  "diff_threshold": 40,
+  "changed_ratio_total": 0.03,
+  "changed_ratio_total_fine": 0.0641,
+  "structure_match_ratio": 0.8882,
+  "edge_match_ratio_fine": 0.4062,
+  "note": "ratios prefixed 'changed_ratio' use the coarse (256px, blurred) difference; '_fine' values are pixel level and inflate on re-rendered images",
+  "changed_ratio_inside_allowed": 0.2294,
+  "changed_ratio_outside_allowed": 0.002,
+  "changed_ratio_inside_allowed_fine": 0.2953,
+  "changed_ratio_outside_allowed_fine": 0.0317,
+  "hints": [
+    "허용 영역 밖 변경이 거의 없습니다. 층수와 글자를 눈으로 다시 확인하세요."
+  ]
+}

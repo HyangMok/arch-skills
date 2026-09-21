@@ -1,0 +1,4 @@
+interface:
+  display_name: "건축 이미지 부분 편집 프롬프트"
+  short_description: "기존 건축 이미지의 일부만 바꾸는 이미지 생성 프롬프트 작성과 실패 진단"
+  default_prompt: "Use $arch-image-edit-prompts to write a prompt that changes only the requested part of my architectural image while preserving the massing, camera and background, and give me the post-generation checklist."

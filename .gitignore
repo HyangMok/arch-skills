@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.tmp
+# 스크립트 기본 출력 폴더 (증거 갤러리 cases/**/compare 는 제외하지 않음)
+/compare/
+skills/*/compare/
+skills/*/cases/**/compare/diff.png
+skills/*/cases/**/compare/leak_outside_mask.png
