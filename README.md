@@ -20,7 +20,7 @@ Reusable agent skills distilled from day-to-day architectural practice with AI c
 
 ```bash
 python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
-  --repo <owner>/skills --path skills/arch-image-edit-prompts
+  --repo HyangMok/skills --path skills/arch-image-edit-prompts
 ```
 
 또는 폴더를 `~/.codex/skills/`에 복사합니다.
