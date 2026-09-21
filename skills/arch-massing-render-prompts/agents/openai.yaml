@@ -1,0 +1,4 @@
+interface:
+  display_name: "매스 캡처 → 렌더 프롬프트"
+  short_description: "3D 매스 뷰포트 캡처를 카메라·배치·층수를 지킨 조감도·투시도로 렌더하는 프롬프트 작성과 결과 대조"
+  default_prompt: "Use $arch-massing-render-prompts to check my massing capture, write a rendering prompt that keeps the camera, building layout, floor counts and pilotis, and give me the post-generation comparison table."

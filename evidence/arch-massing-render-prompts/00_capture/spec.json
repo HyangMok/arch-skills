@@ -1,0 +1,97 @@
+{
+  "image": "capture.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "floor_height_m": 3.1,
+  "buildings": [
+    {
+      "name": "A",
+      "footprint_m": [
+        62,
+        16
+      ],
+      "floors": 15,
+      "height_m": 46.5,
+      "pilotis_floors": 0,
+      "group": null
+    },
+    {
+      "name": "B",
+      "footprint_m": [
+        46,
+        16
+      ],
+      "floors": 12,
+      "height_m": 37.2,
+      "pilotis_floors": 2,
+      "group": null
+    },
+    {
+      "name": "C1",
+      "footprint_m": [
+        34,
+        15
+      ],
+      "floors": 10,
+      "height_m": 31.0,
+      "pilotis_floors": 0,
+      "group": "C"
+    },
+    {
+      "name": "C2",
+      "footprint_m": [
+        15,
+        24
+      ],
+      "floors": 10,
+      "height_m": 31.0,
+      "pilotis_floors": 0,
+      "group": "C"
+    },
+    {
+      "name": "D",
+      "footprint_m": [
+        22,
+        22
+      ],
+      "floors": 20,
+      "height_m": 62.0,
+      "pilotis_floors": 0,
+      "group": null
+    }
+  ],
+  "note": "C1+C2 는 하나의 L자형 동(C). 총 4개 동: A 15F, B 12F(필로티 2F), C 10F L자, D 20F 타워.",
+  "camera": {
+    "pos": [
+      -115.0,
+      -175.0,
+      135.0
+    ],
+    "target": [
+      60.0,
+      42.0,
+      12.0
+    ],
+    "fov_deg": 46
+  },
+  "site_boundary_m": [
+    [
+      -12,
+      -14
+    ],
+    [
+      136,
+      -14
+    ],
+    [
+      136,
+      96
+    ],
+    [
+      -12,
+      96
+    ]
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "capture": "capture_v2.png",
+  "render": "result.jpg",
+  "capture_size": [
+    1536,
+    1024
+  ],
+  "render_size": [
+    1536,
+    1024
+  ],
+  "resized": false,
+  "edges": "capture_v2_edges.png",
+  "boxes": {
+    "A": [
+      520,
+      340,
+      980,
+      830
+    ],
+    "B": [
+      940,
+      300,
+      1220,
+      660
+    ],
+    "C": [
+      330,
+      320,
+      560,
+      700
+    ],
+    "D": [
+      760,
+      40,
+      1000,
+      420
+    ]
+  },
+  "strips": {
+    "A": [
+      640,
+      430,
+      760,
+      800
+    ],
+    "B": [
+      1040,
+      360,
+      1160,
+      620
+    ],
+    "C": [
+      420,
+      420,
+      520,
+      660
+    ],
+    "D": [
+      790,
+      100,
+      880,
+      370
+    ]
+  },
+  "outputs": [
+    "overlay.jpg",
+    "overlay_zoom_A.jpg",
+    "overlay_zoom_B.jpg",
+    "overlay_zoom_C.jpg",
+    "overlay_zoom_D.jpg",
+    "strip_A.jpg",
+    "strip_B.jpg",
+    "strip_C.jpg",
+    "strip_D.jpg"
+  ]
+}

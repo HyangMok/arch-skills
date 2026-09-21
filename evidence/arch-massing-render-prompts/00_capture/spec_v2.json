@@ -1,0 +1,175 @@
+{
+  "image": "capture_v2.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "floor_height_m": 3.1,
+  "buildings": [
+    {
+      "name": "A",
+      "floors": 15,
+      "height_m": 46.5,
+      "pilotis_floors": 0,
+      "footprint_polygon_m": [
+        [
+          0,
+          0
+        ],
+        [
+          62,
+          0
+        ],
+        [
+          62,
+          16
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "rooftop_box": null
+    },
+    {
+      "name": "B",
+      "floors": 12,
+      "height_m": 37.2,
+      "pilotis_floors": 2,
+      "footprint_polygon_m": [
+        [
+          78,
+          6
+        ],
+        [
+          124,
+          6
+        ],
+        [
+          124,
+          22
+        ],
+        [
+          78,
+          22
+        ]
+      ],
+      "rooftop_box": null
+    },
+    {
+      "name": "C",
+      "floors": 10,
+      "height_m": 31.0,
+      "pilotis_floors": 0,
+      "footprint_polygon_m": [
+        [
+          6,
+          44
+        ],
+        [
+          40,
+          44
+        ],
+        [
+          40,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          21,
+          83
+        ],
+        [
+          6,
+          83
+        ]
+      ],
+      "rooftop_box": null
+    },
+    {
+      "name": "D",
+      "floors": 20,
+      "height_m": 62.0,
+      "pilotis_floors": 0,
+      "footprint_polygon_m": [
+        [
+          96,
+          58
+        ],
+        [
+          118,
+          58
+        ],
+        [
+          118,
+          80
+        ],
+        [
+          96,
+          80
+        ]
+      ],
+      "rooftop_box": {
+        "poly": [
+          [
+            101,
+            63
+          ],
+          [
+            113,
+            63
+          ],
+          [
+            113,
+            75
+          ],
+          [
+            101,
+            75
+          ]
+        ],
+        "h": 3.5
+      }
+    }
+  ],
+  "changes_from_v1": [
+    "floor lines 3px dark",
+    "floor-count labels on roofs",
+    "C drawn as one L-shaped prism",
+    "rooftop box on D"
+  ],
+  "camera": {
+    "pos": [
+      -115.0,
+      -175.0,
+      135.0
+    ],
+    "target": [
+      60.0,
+      42.0,
+      12.0
+    ],
+    "fov_deg": 46
+  },
+  "site_boundary_m": [
+    [
+      -12,
+      -14
+    ],
+    [
+      136,
+      -14
+    ],
+    [
+      136,
+      96
+    ],
+    [
+      -12,
+      96
+    ]
+  ]
+}

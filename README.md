@@ -9,6 +9,7 @@ Reusable agent skills distilled from day-to-day architectural practice with AI c
 | 스킬 | 하는 일 |
 |---|---|
 | [arch-image-edit-prompts](skills/arch-image-edit-prompts/SKILL.md) | 기존 건축 이미지의 일부만 바꾸는 이미지 생성 프롬프트를 쓰고, 매스·시점이 어긋났을 때 원인을 찾아 고친다. 원본과 결과를 나란히 놓고 허용 영역 밖 변경을 빨갛게 표시하는 검사 스크립트, ChatGPT 웹에서 실제로 실행한 [증거 갤러리(편집 6건)](evidence/arch-image-edit-prompts/README.md) 포함 |
+| [arch-massing-render-prompts](skills/arch-massing-render-prompts/SKILL.md) | 3D 매스 뷰포트 캡처를 카메라·배치·층수·필로티를 지킨 조감도·투시도로 렌더하는 프롬프트를 쓰고, 캡처 윤곽을 렌더 위에 겹쳐 결과를 대조한다. 캡처 준비 점검표, 겹침·확대 스크립트, 가상 매스 4동으로 실행한 [증거 갤러리(렌더 5건)](evidence/arch-massing-render-prompts/README.md) 포함 |
 
 ![case 01 report](evidence/arch-image-edit-prompts/01_A_material_swap/compare/report.jpg)
 
@@ -22,6 +23,8 @@ Reusable agent skills distilled from day-to-day architectural practice with AI c
 python "$CODEX_HOME/skills/.system/skill-installer/scripts/install-skill-from-github.py" \
   --repo HyangMok/arch-skills --path skills/arch-image-edit-prompts
 ```
+
+스킬 이름만 바꾸면 다른 스킬도 같은 방법으로 설치됩니다(`--path skills/arch-massing-render-prompts`).
 
 또는 폴더를 `~/.codex/skills/`에 복사합니다.
 
