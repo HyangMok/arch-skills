@@ -16,7 +16,7 @@
 
 참고 이미지가 있으면 첫 줄에 "이미지 2의 벽돌 톤과 줄눈 표현만 참고하고 형태는 가져오지 않는다"를 붙인다.
 
-실행 기록([cases/01](../cases/01_A_material_swap/verdict.md)): 제외 부위를 쓰지 않았을 때 필로티 기둥이 함께 벽돌 톤으로 바뀌었다. 커튼월은 "stays glass"라고 명시해 유지됐다.
+실행 기록([evidence/01](https://github.com/HyangMok/arch-skills/blob/main/evidence/arch-image-edit-prompts/01_A_material_swap/verdict.md)): 제외 부위를 쓰지 않았을 때 필로티 기둥이 함께 벽돌 톤으로 바뀌었다. 커튼월은 "stays glass"라고 명시해 유지됐다.
 
 ## B. 캡처를 렌더로
 
@@ -58,7 +58,7 @@
 
 주석 색이 두 가지 이상이면 색마다 의미를 한 줄씩 따로 쓴다.
 
-파일을 첨부할 수 없으면 ChatGPT 편집 화면의 마크업 도구로 원본 위에 직접 사각형을 그리고 "The red rectangle I drew marks the edit region only… the rectangle itself must not appear in the result"로 시작한다. 실행 기록([cases/04](../cases/04_D_annotation_region/verdict.md)): 사각형은 결과에 남지 않았고 재질은 영역 안에만 적용됐으나 경계는 ±1층 오차. 정확한 경계는 "3층 아래 발코니 슬래브 선에서 끝난다"처럼 이미지 안의 선으로 쓴다.
+파일을 첨부할 수 없으면 ChatGPT 편집 화면의 마크업 도구로 원본 위에 직접 사각형을 그리고 "The red rectangle I drew marks the edit region only… the rectangle itself must not appear in the result"로 시작한다. 실행 기록([evidence/04](https://github.com/HyangMok/arch-skills/blob/main/evidence/arch-image-edit-prompts/04_D_annotation_region/verdict.md)): 사각형은 결과에 남지 않았고 재질은 영역 안에만 적용됐으나 경계는 ±1층 오차. 정확한 경계는 "3층 아래 발코니 슬래브 선에서 끝난다"처럼 이미지 안의 선으로 쓴다.
 
 ## E. 비율·구도 보정
 
@@ -86,7 +86,7 @@
 
 L자형이나 꺾인 면은 "두 면을 따로 잡지 말고 하나의 연속 면으로" 명시한다. 셀 단위 패턴은 "끝단에 잘린 셀이 생기지 않게 간격을 등분"이라고 쓴다.
 
-**깊이 방향 형상은 이 뷰에서 보이는 모습으로 쓴다.** 실행 기록([cases/05](../cases/05_F_repeat_module/verdict.md)): "벽에서 바깥으로 기울어진 핀, 옆에서 보면 삼각형"은 입면 위의 사선 핀(V·X자)으로 그려졌다. 반복·간격·끝단 규칙은 지켜졌다. 깊이 변화가 목적이면 다음처럼 바꾼다.
+**깊이 방향 형상은 이 뷰에서 보이는 모습으로 쓴다.** 실행 기록([evidence/05](https://github.com/HyangMok/arch-skills/blob/main/evidence/arch-image-edit-prompts/05_F_repeat_module/verdict.md)): "벽에서 바깥으로 기울어진 핀, 옆에서 보면 삼각형"은 입면 위의 사선 핀(V·X자)으로 그려졌다. 반복·간격·끝단 규칙은 지켜졌다. 깊이 변화가 목적이면 다음처럼 바꾼다.
 
 ```text
 In this view every fin reads as a straight VERTICAL line; fins never cross each other and never appear diagonal on the facade.

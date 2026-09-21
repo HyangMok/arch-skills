@@ -17,7 +17,7 @@
 | 카메라 | 눈높이 위 3/4, 좌측 45도 | 요청보다 높은 준조감 시점. 좌측에서 본 3/4 |
 | 배경 | 저층 주거지, 가로수, 2차선 도로, 산 능선 | 일치. 전경 좌하단에 저층 건물 지붕 |
 
-층수 계측은 `scripts/count_floors.py`로 했고 결과는 `floors_annotated.jpg`. 기울어진 타워는 스트립이 기울기를 따르지 못해 과소 계측된다.
+층수 계측은 `skills/arch-image-edit-prompts/scripts/count_floors.py`로 했고 결과는 `floors_annotated.jpg`. 기울어진 타워는 스트립이 기울기를 따르지 못해 과소 계측된다.
 
 ## 고정 값 (프롬프트의 고정 목록으로 옮길 것)
 

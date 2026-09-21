@@ -27,7 +27,7 @@
 6. **정량 지시("채도 30% 감소")는 거의 반영되지 않는다.** 상대 표현이 나은지는 추가 시험 대상.
 7. **편집 화면의 버전 썸네일로 원본에서 분기할 수 있다.** 재첨부 없이 편집 6건(실행 7회)을 같은 원본에서 시작했다.
 
-각 폴더: `prompt.md`(입력 프롬프트와 조건), `result*.jpg`, `compare*/report.jpg`·`overlay.jpg`·`report.json`, `floors_*.jpg`, `verdict.md`(측정·관찰·판정·스킬 반영). 스크립트가 만드는 `diff.png`·`leak_outside_mask.png`는 재생성 가능해 저장소에서 제외했고, PNG 출력은 JPEG로 변환해 넣었다. `mask_preview.jpg`는 마스크 위치 확인용이다. 색 통계(벽돌색 비율, 채도)는 `scripts/region_stats.py`로 재현한다. 판정 기준은 [references/preservation-checklist.md](../references/preservation-checklist.md).
+각 폴더: `prompt.md`(입력 프롬프트와 조건), `result*.jpg`, `compare*/report.jpg`·`overlay.jpg`·`report.json`, `floors_*.jpg`, `verdict.md`(측정·관찰·판정·스킬 반영). 스크립트가 만드는 `diff.png`·`leak_outside_mask.png`는 재생성 가능해 저장소에서 제외했고, PNG 출력은 JPEG로 변환해 넣었다. `mask_preview.jpg`는 마스크 위치 확인용이다. 색 통계(벽돌색 비율, 채도)는 `skills/arch-image-edit-prompts/scripts/region_stats.py`로 재현한다. 판정 기준은 [references/preservation-checklist.md](../../skills/arch-image-edit-prompts/references/preservation-checklist.md).
 
 ## 다음 케이스 (미실행)
 
